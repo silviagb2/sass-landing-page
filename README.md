@@ -6,6 +6,10 @@
 4. Parametriza el breakpoint de móvil ubicado en **responsive/_mobile.scss**. Usa una variable definida en **_config.scss** para establecer en que punto queremos aplicar el diseño responsive para móvil.
 5. Crea un nuevo botón a partir de la plantilla de botón definida en **componentes/_button.scss**. Este nuevo boton debe ser igual a los otros, pero debe tener un color rgb(36, 94, 36). Define el color junto a las otras variables. Usa este nuevo estilo para el botón 'Sign In'.
 
+### Diseño final esperado
+![Diseño](https://github.com/omiras/sass-landing-page/blob/main/img/dise%C3%B1o.png)
+
+
 ## BONUS
 
 Serias capaz de enriquecer  el bucle de la linia 11 de _utilities.scss? Queremos generar ahora 5 clases nuevas: .mt-1 , .mt-2, .mt-3, .mt-4, .mt-5. Estas clases permitiran separar 1,2,3,4,5 píxeles el elemento HTML SOLO en la parte superior (top). Piensa como montar esta regla CSS dinámics dentro de la directiva @each.
