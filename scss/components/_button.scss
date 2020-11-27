@@ -18,4 +18,9 @@
     @extend %btn;
     @include set-background($secondary-color);
   }
+
+  .btn-sign-in {
+    @extend %btn;
+    @include set-background($sign-in-color);
+  }
   

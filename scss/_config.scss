@@ -3,6 +3,8 @@ $light-color: #f4f4f4;
 $primary-color: #0e6cff;
 // $primary-color: #e0ffff;
 $secondary-color: #ff8700;
+$sign-in-color: rgb(36, 94, 36);
+$mobile-breakpoint: 700px;
 
 @function set-text-color($color) {
     @if(lightness($color) > 70) {
